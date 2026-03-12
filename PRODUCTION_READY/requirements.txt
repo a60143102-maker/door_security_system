@@ -1,0 +1,43 @@
+# Smart Door Security System - Production Requirements
+# Security-hardened and performance-optimized dependencies
+
+# Core dependencies with security updates
+numpy>=1.24.0  # Updated for security fixes
+opencv-python>=4.8.0  # Updated for security and performance
+Pillow>=10.0.0  # Updated for security fixes
+
+# Face recognition with security considerations
+face-recognition>=1.3.0
+dlib>=19.24.0  # Updated for security fixes
+
+# Web framework with security hardening
+Flask>=2.3.0  # Updated for security fixes
+Flask-Limiter>=3.0.0  # Rate limiting for security
+bcrypt>=4.0.1  # Updated for security fixes
+
+# Serial communication (for fingerprint sensor)
+pyserial>=3.5
+
+# Database (SQLite is included with Python)
+# Additional security and performance packages
+cryptography>=41.0.0  # For secure hashing and encryption
+secrets  # Built-in secure random generation
+
+# Development/Testing (optional but recommended for production)
+pytest>=7.4.0  # Testing framework
+pytest-cov>=4.1.0  # Coverage reporting
+black>=23.0.0  # Code formatting
+flake8>=6.0.0  # Linting
+mypy>=1.5.0  # Type checking
+
+# Performance and monitoring
+psutil>=5.9.0  # System monitoring
+memory-profiler>=0.60.0  # Memory usage monitoring
+
+# Security scanning (optional)
+bandit>=1.7.0  # Security vulnerability scanner
+safety>=2.3.0  # Dependency vulnerability scanner
+
+# Production deployment (optional)
+gunicorn>=21.0.0  # Production WSGI server
+supervisor>=4.2.0  # Process management

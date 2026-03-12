@@ -1,0 +1,6 @@
+2026-03-12 09:48:44,932 - SECURITY - INFO - System startup completed successfully
+2026-03-12 09:48:44,936 - SECURITY - INFO - GUI application started
+2026-03-12 09:48:48,243 - SECURITY - INFO - Face authentication successful for user Mohit Shrestha
+2026-03-12 09:48:48,896 - SECURITY - WARNING - ACCESS DENIED: Fingerprint not recognized (User ID: 1)
+2026-03-12 09:48:48,897 - SECURITY - WARNING - Fingerprint authentication failed for user 1
+2026-03-12 09:49:03,963 - SECURITY - INFO - System shutdown completed
